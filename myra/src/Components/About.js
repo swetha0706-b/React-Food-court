@@ -24,7 +24,7 @@ const About = () => {
             <div className='col-12 text-center my-2'><h3>Our Address</h3></div>
         </div>
          <div className='row'>
-            <div className='col-12 text-center'><p>📍 8-1-103, Plot No 50, East Wing Narakanguda,
+            <div className='col-12 text-center'><p>📍 8-1-103, Plot No 50, East Wing Narakramguda,
             Hyderabad, Telangana, 500032, India</p></div>
         </div>
         <div className='row'>
