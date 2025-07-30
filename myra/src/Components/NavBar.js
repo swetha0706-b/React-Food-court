@@ -1,7 +1,8 @@
 import React from 'react';
 import pic1 from '../Asserts/MainLogo.png'
 import {Link} from 'react-router-dom'
-import App from '../App.css';
+import '../App.css';
+
 const NavBar = () => {
   return (
     <>
@@ -16,19 +17,19 @@ const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link to={'/'}> <a className="nav-link listItem" href='#' >Home</a></Link>
+          <Link to="/" className="nav-link listItem">Home</Link>
         </li>
          <li className="nav-item">
-         <Link to={'/about'}> <a className="nav-link  listItem"  href='#'>About</a></Link>
+         <Link to={'/about'} className="nav-link  listItem">About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link  listItem" href="#">Favriotes</a>
+         <Link to={'/likes'}className="nav-link  listItem" >Favriotes</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link  listItem" href="#">My Orders</a>
+        <Link to={'/about'}className="nav-link  listItem" >My Orders</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link listItem" href="#">Cart</a>
+          <Link to={'/cart'} className="nav-link listItem" >Cart</Link>
         </li>
       </ul>
       <form className="d-flex">
